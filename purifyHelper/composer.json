@@ -1,0 +1,20 @@
+{
+    "name": "konecta/purify-helper",
+    "description": ":validación de contenido para SQL injection y XSS, de la KSF",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":KSF",
+            "email": "ksf@grupokonecta.com"
+        }
+    ],
+    "require": {
+        "stevebauman/purify": "^4.0",
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konecta\\PurifyHelper\\": "src/"
+        }
+    }
+}
