@@ -86,8 +86,8 @@ class PurifyHelper {
                 $response = array('valid' => true, 'response'=>[]);
             }
         }catch (\Throwable $th){
-            $strMessage = 'Error en la linea ' . $th->getLine() . ' : ' . $th->getMessage();
-            $response = array('valid' => false, 'response' => $strMessage);
+            $strMessage = $th->getMessage();
+            $response   = array('valid' => false, 'response' => $strMessage);
         }
         return $response;
     }
