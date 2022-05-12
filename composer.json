@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "stevebauman/purify": "^4.0",
+        "stevebauman/purify": "^3.0",
         "php": "^7.0"
     },
     "autoload": {
